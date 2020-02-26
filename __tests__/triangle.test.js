@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { Triangle } from './..src/triangle.js';
+import { Triangle } from './../src/triangle.js';
 
 describe('Triangle', () => {
 
@@ -9,5 +9,5 @@ describe('Triangle', () => {
     expect(triangle.side2).toEqual(4);
     expect(triangle.side3).toEqual(5);
   });
-  
+
 });
